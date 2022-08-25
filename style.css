@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+body{
+background-color: rgb(234, 244, 247);
+}
+
+article{
+    margin: 40px auto;
+    width: 90%;
+    height: 1000px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.3fr 0.3fr 5fr;
+    justify-content: center;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+#cock-img{
+    width: 50px;
+    margin-right: 300px;
+}
+
+.logo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.home-list{
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+.search{
+    width: 60%;
+    height: 80px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px rgb(150, 150, 150);
+    border-radius: 5px;
+}
+
+.search p{
+    text-align: start;
+    color: green;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.search input{
+    background-color: rgb(234, 244, 247);
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    height: 25px;
+}
+
+div .filter{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+button, li{
+    padding: 0 10px;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    height: 25px;
+    background-color: white;
+}
+
+li{
+    list-style: none;
+    margin: 5px;
+    padding-top: 3px;
+}
+
+h2{
+    margin: 20px auto;
+    padding-bottom: 0;
+    letter-spacing: 2px;
+}
+
+main{
+    margin-top:0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 300px;
+}
+
+.cocktail-item{
+    margin: 10px 20px;
+    padding: 0;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 2px 2px rgb(177, 177, 177);
+    height: 430px;
+}
+
+.cocktail-info{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cocktail-name, .cocktail-glass{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.cocktail-type{
+    color: rgb(177, 177, 177);
+    margin-bottom: 10px;
+}
+
+.about-info{
+    width: 500px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+
+.details-div{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.detail-info{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
